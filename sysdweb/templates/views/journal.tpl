@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{service}} journal · {{hostname or 'sysdweb'}} · sysdweb</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/sysdweb.css" rel="stylesheet">
-    <link rel="shortcut icon" href="/img/favicon.png">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/sysdweb.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon.png">
   </head>
   <body>
     <div class="container-fluid">

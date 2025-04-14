@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{hostname or 'sysdweb'}} · sysdweb</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/sysdweb.css" rel="stylesheet">
-    <link rel="shortcut icon" href="/img/favicon.png">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/sysdweb.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon.png">
   </head>
   <body>
     <div class="container">
@@ -18,12 +18,11 @@
           <tr>
             <th>Service</th>
             <th class="text-end">Actions</th>
-          </tr>
           % for service in services:
           <tr>
             <td class="table-{{service['class']}}">
             % if service['class'] != 'light':
-              <a href="/journal/{{service['service']}}"
+              <a href="journal/{{service['service']}}"
                 data-bs-toggle="tooltip" data-bs-placement="right"
                 data-bs-title="Show journal">
             % end
@@ -78,9 +77,10 @@
                   9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49
                   15"></path>
                 </svg></button>
+              </svg></button>
+            </td>
           </tr>
           % end
-        </table>
       </div>
     </div>
     <div class="modal fade" id="warningModal" tabindex="-1"
@@ -104,7 +104,7 @@
         </div>
       </div>
     </div>
-    <script src="/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/sysdweb.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/sysdweb.js"></script>
   </body>
 </html>

@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  sysdweb:
+    build: .
+    ports:
+      - "10088:10088"  # Map container port to host port
+    volumes:
+      - .:/app  # Mount the current directory for development
+    environment:
+      SYSDWEB_CONFIG: /app/sysdweb.conf
+      SYSDWEB_HOST: 0.0.0.0
+      SYSDWEB_PORT: 10088

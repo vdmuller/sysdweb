@@ -24,7 +24,7 @@ function reload(element) {
 }
 
 function unit(service, action) {
-  var url = '/api/v1/' + service + '/' + action;
+  var url = 'api/v1/' + service + '/' + action;
   fetch(url).then(res => res.json()).then(function (res) {
     for (key in res) {
       if (res[key] === 'OK') {
