@@ -6,7 +6,7 @@
     <title>{{hostname or 'sysdweb'}} · sysdweb</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/sysdweb.css" rel="stylesheet">
-    <link rel="shortcut icon" href="./img/favicon.png">
+    <link rel="shortcut icon" href="img/favicon.png">
   </head>
   <body>
     <div class="container">
